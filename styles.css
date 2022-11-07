@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* estilos do header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #121212;
+    padding: 10px 0;
+    max-width: 1300px;
+    margin: auto;
+}
+
+.header .logo span {
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.header .menu {
+    display: flex;
+}
+
+.header .menu li {
+    padding: 20px;
+}
+
+main {
+    max-width: 1300px;
+    margin: auto;
+}
+
+/* estilos da home */
+.home-page {
+    display: flex;
+    height: 100vh; /* provisorio */
+}
+
+.home-page .largura {
+    width: 50%;
+}
+
+.home-page .into-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.home-page .into-home h1 {
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.home-page #cor {
+    background-color: yellow;
+}

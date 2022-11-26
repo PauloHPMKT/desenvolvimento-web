@@ -15,6 +15,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+main {
+    max-width: 1300px;
+    margin: auto;
+}
+
 /* estilos do header */
 .header {
     display: flex;
@@ -40,15 +45,10 @@ body {
     padding: 20px;
 }
 
-main {
-    max-width: 1300px;
-    margin: auto;
-}
-
 /* estilos da home */
 .home-page {
     display: flex;
-    height: 73vh;
+    height: 72vh;
     background-image: url("/img/bg-business.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -92,4 +92,100 @@ main {
     letter-spacing: 2px;
     font-weight: 500;
     cursor: pointer;
+}
+
+/* section  2 */
+.qualities {
+    display: flex;
+    min-height: 420px;
+    color: #fff;
+}
+
+.qualities .description-content {
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+/* setando cores dos cards */
+.qualities #black-color {
+    background-color: black;
+}
+.qualities #cyan-color {
+    background-color: #38d2d9;
+}
+.qualities #dark-cyan-color {
+    background-color: #14b8bf;
+}
+
+.qualities .description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.qualities .description h3 {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 1.875rem;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.qualities .description p {
+    font-style: italic;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+/* section 3 */
+.company-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 280px;
+}
+
+.company-container > div {
+    text-align: center;
+}
+
+.company-container i,
+.company-container p {
+    margin-bottom: 40px;
+}
+
+.company-container i {
+    font-size: 60px;
+}
+
+.company-container h3 {
+    font-family: 'Monserrat', Arial, Helvetica, sans-serif;
+    font-size: 32.25px;
+    font-weight: 700;
+    color: #2E2F33;
+    margin-bottom: 27px;
+}
+
+.company-container p {
+    font-size: 17.5px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.company-container button {
+    text-transform: uppercase;
+    padding: 12px 25px;
+    background-color: transparent;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border: 2px solid #c7c7c7;
+    cursor: pointer;
+}
+
+.company-container button:hover {
+    border-color: #6d6d6d;
 }

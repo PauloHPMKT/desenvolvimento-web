@@ -49,7 +49,7 @@ main {
 .home-page {
     display: flex;
     height: 72vh;
-    background-image: url("/img/bg-business.jpg");
+    background-image: url("img/bg-business.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -244,8 +244,13 @@ main {
     color: #14b8bf;
 }
 
+/* section 5 */
 .service-categories {
     text-align: center;
+}
+
+.service-categories .header-categories {
+    padding: 80px 0 40px;
 }
 
 .service-categories .our-services {
